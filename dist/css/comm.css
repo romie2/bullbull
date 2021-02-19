@@ -469,7 +469,7 @@ input[type=password] {
 }
 
 .sec-prizes .col-txt h2::after {
-  margin: 63px 19px 24px;
+  margin: 50px 19px 34px;
 }
 
 .sec-prizes .col-txt ul {
@@ -537,7 +537,7 @@ input[type=password] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 50px 40px;
+  padding: 50px 75px;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.5);
   color: #fff;
@@ -648,8 +648,8 @@ footer .btn-area .btn-g {
 }
 
 footer .btn-area .btn-g span {
-  width: 233px;
-  height: 66px;
+  width: 194px;
+  height: 53px;
   text-indent: -9999px;
 }
 
@@ -657,13 +657,20 @@ footer .btn-area .btn-google {
   position: absolute;
   top: 5px;
   left: 114px;
-  background-position: -15px -82px;
+}
+
+footer .btn-area .btn-google span {
+  background-position: -2px -79px;
 }
 
 footer .btn-area .btn-apple {
   position: absolute;
   top: 5px;
   left: 452px;
+}
+
+footer .btn-area .btn-apple span {
+  background-position: -202px -76px;
 }
 
 footer .col-up {
@@ -679,9 +686,9 @@ footer .goto ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 footer .goto ul li {

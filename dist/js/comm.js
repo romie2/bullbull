@@ -119,7 +119,7 @@ $(function(){
       })
       //li 를 클릭했을 때 
       $(this).find('.lst-prize li').click(function(){
-      ('.lst-prize li').removeClass('on')
+      $('.lst-prize li').removeClass('on')
       
       let index = $('.lst-prize li').index(this)
 

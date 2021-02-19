@@ -250,7 +250,7 @@
       letter-spacing: -.8px;
 
       &::after {
-        margin: 63px 19px 24px;
+        margin: 50px 19px 34px;
       }
     }
 
@@ -310,7 +310,7 @@
 
     li {
       display: flex;
-      padding: 50px 40px;
+      padding: 50px 75px;
       border-radius: 10px;
       background: rgba(255, 255, 255, .5);
       color: $w;
@@ -419,8 +419,8 @@ footer {
       border-radius: 15px;
 
       span {
-        width: 233px;
-        height: 66px;
+        width: 194px;
+        height: 53px;
         text-indent: -9999px;
       }
     }
@@ -429,13 +429,14 @@ footer {
       position: absolute;
       top: 5px;
       left: 114px;
-      background-position: -15px -82px;
+     span { background-position: -2px -79px;}
     }
 
     .btn-apple {
       position: absolute;
       top: 5px;
       left: 452px;
+      span {background-position: -202px -76px;}
     }
   }
 
@@ -451,7 +452,7 @@ footer {
   .goto {
     ul {
       display: flex;
-      align-items: center;
+      justify-content: center;
 
       li {
         margin-right: 20px;
