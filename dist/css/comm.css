@@ -702,7 +702,11 @@ footer .goto ul li::before {
   height: 19px;
   margin: 0px 10px 0 4px;
   vertical-align: middle;
-  color: #708199;
+  background: #708199;
+}
+
+footer .goto ul li:first-child::before {
+  display: none;
 }
 
 footer .goto ul li a {
