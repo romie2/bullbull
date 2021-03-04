@@ -243,7 +243,7 @@ input[type=password] {
 }
 
 .btn-g.btn-apple span {
-  background-position: -220px -83px;
+  background-position: -222px -83px;
 }
 
 .wrap-tit.center {
@@ -636,50 +636,40 @@ footer .btn-area {
   position: relative;
 }
 
-footer .btn-area .btn-g {
-  display: inline-block;
-  height: 85px;
-  width: 260px;
-  padding: 8px 13px;
-  margin-top: 43px;
-  background: #000;
-  border: 1px solid #666;
-  border-radius: 15px;
-}
-
 footer .btn-area .btn-g span {
-  width: 194px;
-  height: 53px;
+  width: 180px;
+  height: 43px;
   text-indent: -9999px;
 }
 
 footer .btn-area .btn-google {
   position: absolute;
   top: 5px;
-  left: 114px;
+  left: 193px;
 }
 
 footer .btn-area .btn-google span {
-  background-position: -2px -79px;
+  background-position: -14px -84px;
 }
 
 footer .btn-area .btn-apple {
   position: absolute;
   top: 5px;
-  left: 452px;
+  left: 410px;
 }
 
 footer .btn-area .btn-apple span {
-  background-position: -202px -76px;
+  background-position: -226px -82px;
 }
 
 footer .col-up {
-  margin-top: 210px;
+  margin-top: 175px;
 }
 
 footer .col-down {
   margin: 0 auto;
   text-align: center;
+  padding-top: 10px;
 }
 
 footer .goto ul {
@@ -691,16 +681,12 @@ footer .goto ul {
           justify-content: center;
 }
 
-footer .goto ul li {
-  margin-right: 20px;
-}
-
 footer .goto ul li::before {
   content: '';
   display: inline-block;
   width: 1px;
   height: 19px;
-  margin: 0px 10px 0 4px;
+  margin: 0px 4px;
   vertical-align: middle;
   background: #708199;
 }
@@ -711,5 +697,6 @@ footer .goto ul li:first-child::before {
 
 footer .goto ul li a {
   color: #708199;
+  padding: 0 10px;
 }
 /*# sourceMappingURL=comm.css.map */

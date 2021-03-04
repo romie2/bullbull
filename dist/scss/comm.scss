@@ -33,7 +33,7 @@
 
   &.btn-apple {
     span {
-      background-position: -220px -83px;
+      background-position: -222px -83px;
     }
   }
 }
@@ -409,18 +409,9 @@ footer {
     position: relative;
 
     .btn-g {
-      display: inline-block;
-      height: 85px;
-      width: 260px;
-      padding: 8px 13px;
-      margin-top: 43px;
-      background: $b;
-      border: 1px solid #666;
-      border-radius: 15px;
-
       span {
-        width: 194px;
-        height: 53px;
+        width: 180px;
+        height: 43px;
         text-indent: -9999px;
       }
     }
@@ -428,25 +419,26 @@ footer {
     .btn-google {
       position: absolute;
       top: 5px;
-      left: 114px;
-     span { background-position: -2px -79px;}
+      left: 193px;
+     span { background-position: -14px -84px;}
     }
 
     .btn-apple {
       position: absolute;
       top: 5px;
-      left: 452px;
-      span {background-position: -202px -76px;}
+      left: 410px;
+      span {background-position: -226px -82px;}
     }
   }
 
   .col-up {
-    margin-top: 210px;
+    margin-top: 175px;
   }
 
   .col-down {
     margin: 0 auto;
     text-align: center;
+    padding-top: 10px;
   }
 
   .goto {
@@ -455,14 +447,12 @@ footer {
       justify-content: center;
 
       li {
-        margin-right: 20px;
-
         &::before {
           content: '';
           display: inline-block;
           width: 1px;
           height: 19px;
-          margin: 0px 10px 0 4px;
+          margin: 0px 4px;
           vertical-align: middle;
           background: #708199;
         }
@@ -472,6 +462,7 @@ footer {
 
         a {
           color: #708199;
+          padding: 0 10px;
         }
       }
     }
